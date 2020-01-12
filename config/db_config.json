@@ -1,0 +1,29 @@
+{
+    "meta": {
+        "name": "Database Configuration",
+        "author": "richard.s",
+        "recency": "01 Dec 2019",
+        "description": "Configuration variables for databases",
+        "keywords": [
+            "database",
+            "data"
+        ],
+        "allowed": [
+            "[a-zA-Z0-9_]"
+        ]
+    },
+    "vertica_params": {
+        "host": "office-vrt.taboolasyndication.com",
+        "port": "5433",
+        "user": "readonly",
+        "password": "09093f4e6b",
+        "database": "taboola_prod",
+        "connection_timeout": 5
+    },
+    "mysql_params": {
+
+    },
+    "kusto_params": {
+
+    }
+}

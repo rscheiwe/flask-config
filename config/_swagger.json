@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "name":"Swagger Responses",
+        "author":"richard.s",
+        "recency":"01 Jan 2019",
+        "description":"Configuration for Swagger descriptions and response values",
+        "keywords":[
+            "api",
+            "data"
+        ],
+        "allowed":[
+            "[a-zA-Z0-9_]"
+        ]
+    },
+    "impl_short_pv":
+        {
+            "data": [
+                {
+                    "daterange": "2019-10-13 - 2020-01-11",
+                    "json_response": [
+                        {
+                            "MODE": "thumbnails-feed-mobile",
+                            "num_views": 845822728,
+                            "publisher_id": 1010748,
+                            "rolling_mean": 64574456.64285714
+                        },
+                        {
+                            "MODE": "thumbnails-feed-mobile",
+                            "num_views": 845822728,
+                            "publisher_id": 1010748,
+                            "rolling_mean": 64574456.64285714
+                        }
+                        ]
+                }
+                ]
+        },
+    "impl_list_modes":
+        {
+            "data": [
+                {
+                    "json_response": [
+                        {
+                            "MODE": "rec-reel-3n4-a",
+                            "archived": "not archived",
+                            "mode_date": "Thu, 09 Jan 2020 19:08:35 GMT",
+                            "mode_id": 627173
+                        },
+                        {
+                            "MODE": "feed-hero-small",
+                            "archived": "not archived",
+                            "mode_date": "Wed, 08 Jan 2020 14:25:51 GMT",
+                            "mode_id": 626313
+                        }
+                    ]
+                }
+            ]
+        },
+    "impl_compare_modes":
+        {
+            "data": [
+                {
+                    "active_modes": [
+                        "thumbnails-feed-mobile-amp",
+                        "thumbs-feed-01-b",
+                        "thumbs-feed-01-a-2x1-24px",
+                        "thumbs-2r"
+                    ],
+                    "all_modes": [
+                        {
+                            "MODE_NAMES": "thumbs-feed-01-a",
+                            "MODE_TYPE": "LOADER MODES",
+                            "count": 1,
+                            "number_views": 0,
+                            "publisher_id": 1010748
+                        },
+                        {
+                            "MODE_NAMES": "thumbnails-o",
+                            "MODE_TYPE": "ACTIVE MODES",
+                            "count": 1,
+                            "number_views": 5015963,
+                            "publisher_id": 1010748
+                        },
+                        {
+                            "MODE_NAMES": "thumbs-feed-01-a",
+                            "MODE_TYPE": "ACTIVE MODES",
+                            "count": 1,
+                            "number_views": 14110366,
+                            "publisher_id": 1010748
+                        }
+                    ],
+                    "daterange": "2019-10-13 - 2020-01-11",
+                    "inactive_modes": [
+                        "thumbnails-feed-a",
+                        "text-links-b_sc"
+                    ]
+                }
+            ]
+        },
+    "impl_long_pv":{
+
+    },
+    "kusto_params":{
+
+    },
+  "swagger": "2.0",
+  "info": {},
+  "paths": {}
+}
