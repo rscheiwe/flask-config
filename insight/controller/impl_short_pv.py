@@ -26,12 +26,12 @@ my_resource_parser.add_argument('publisher', type=str, default='string: name', r
 class ImplShortPv(Resource):
     @pv_api.marshal_with(pv_model)
     @pv_api.response(400, 'Bad Request -- Publisher required')
-    @pv_api.expect(my_resource_parser)
+    # @pv_api.expect(my_resource_parser)
     def get(self):
         # parser = reqparse.RequestParser()
         # parser.add_argument('publisher', type=int, location='args')
-        args = my_resource_parser.parse_args()
-        print('args', args)
+        # args = my_resource_parser.parse_args()
+        # print('args', args)
 
         """List all cats"""
         return DATA
