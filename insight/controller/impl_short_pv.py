@@ -19,7 +19,7 @@ pv_model = DTO().model
 # pv_model = DTO.model
 
 my_resource_parser = reqparse.RequestParser()
-my_resource_parser.add_argument('publisher', type=int, default='string: name', required=True)
+my_resource_parser.add_argument('publisher', type=str, default='string: name', required=True)
 
 @pv_api.route('')
 # @pv_api.param('publisher_id', 'The numerical publisher ID')
