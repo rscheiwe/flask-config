@@ -1,45 +1,45 @@
 from flask_restplus import Namespace, fields
 
 
-# class PvDto:
-#     api = Namespace('impl-short-pv', description='Short PV Analysis for Publisher')
-#     nested_pv_data = api.model(
-#         'pv_by_mode', {
-#             'MODE': fields.String,
-#             'num_views': fields.Integer,
-#             'publisher_id': fields.Integer,
-#             'rolling_mean': fields.Integer
+class PvDto:
+    api = Namespace('impl-short-pv', description='Short PV Analysis for Publisher')
+    nested_pv_data = api.model(
+        'pv_by_mode', {
+            'MODE': fields.String,
+            'num_views': fields.Integer,
+            'publisher_id': fields.Integer,
+            'rolling_mean': fields.Integer
+        })
+    pv_data = api.model(
+        'pv_data', {
+            'daterange': fields.String,
+            'json_response': fields.List(fields.Nested(nested_pv_data))
+    })
+    model = api.model(
+        'pv_final', {
+            'data': fields.List(fields.Nested(pv_data))
+    })
+
+# class PvDto():
+#
+#     def __init__(self):
+#         self.api = Namespace('impl-short-pv', description='Short PV Analysis for Publisher')
+#         self.modemodel = self.api.model(
+#             'pv_by_mode', {
+#                 'MODE': fields.String,
+#                 'num_views': fields.Integer,
+#                 'publisher_id': fields.Integer,
+#                 'rolling_mean': fields.Integer
+#             })
+#         self.pv_data = self.api.model(
+#             'pv_data', {
+#                 'daterange': fields.String,
+#                 'json_response': fields.List(fields.Nested(self.modemodel))
 #         })
-#     pv_data = api.model(
-#         'pv_data', {
-#             'daterange': fields.String,
-#             'json_response': fields.List(fields.Nested(nested_pv_data))
-#     })
-#     model = api.model(
-#         'pv_final', {
-#             'data': fields.List(fields.Nested(pv_data))
-#     })
-
-class PvDto():
-
-    def __init__(self):
-        self.api = Namespace('impl-short-pv', description='Short PV Analysis for Publisher')
-        self.modemodel = self.api.model(
-            'pv_by_mode', {
-                'MODE': fields.String,
-                'num_views': fields.Integer,
-                'publisher_id': fields.Integer,
-                'rolling_mean': fields.Integer
-            })
-        self.pv_data = self.api.model(
-            'pv_data', {
-                'daterange': fields.String,
-                'json_response': fields.List(fields.Nested(self.modemodel))
-        })
-        self.model = self.api.model(
-            'ImplShortPv', {
-                'data': fields.List(fields.Nested(self.pv_data))
-        })
+#         self.model = self.api.model(
+#             'ImplShortPv', {
+#                 'data': fields.List(fields.Nested(self.pv_data))
+#         })
 
 
 

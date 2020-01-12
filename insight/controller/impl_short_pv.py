@@ -12,11 +12,11 @@ swagger_data = load_json(path_to_file)
 
 DATA = swagger_data['impl_short_pv']
 
-pv_api = DTO().api
-pv_model = DTO().model
+# pv_api = DTO().api
+# pv_model = DTO().model
 
-# pv_api = DTO.api
-# pv_model = DTO.model
+pv_api = DTO.api
+pv_model = DTO.model
 
 my_resource_parser = reqparse.RequestParser()
 my_resource_parser.add_argument('publisher', type=str, default='string: name', required=True)
