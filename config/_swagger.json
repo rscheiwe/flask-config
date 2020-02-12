@@ -34,6 +34,31 @@
                 }
                 ]
         },
+    "impl_long_pv":
+        {
+            "data": [
+                {
+                    "daterange": "2019-10-13 - 2020-01-11",
+                     "json_response": [
+                        {
+                            "mode": "thumbs-feed-01:abp=0",
+                            "num_placements": 3,
+                            "num_publishers": 1,
+                            "num_views": 443829953,
+                            "placements": [
+                                "Mobile Below Article - Taboola Feed",
+                                "Mobile Below Article Thumbnails AMP -Bento",
+                                "Mobile Below Article - Taboola Feed - Better"
+                            ],
+                            "publishers": [
+                                "nbcnews - 1010748"
+                            ],
+                            "without_abp": "thumbs-feed-01"
+                        }
+                        ]
+                }
+                ]
+        },
     "impl_list_modes":
         {
             "data": [
@@ -79,13 +104,6 @@
                             "count": 1,
                             "number_views": 5015963,
                             "publisher_id": 1010748
-                        },
-                        {
-                            "MODE_NAMES": "thumbs-feed-01-a",
-                            "MODE_TYPE": "ACTIVE MODES",
-                            "count": 1,
-                            "number_views": 14110366,
-                            "publisher_id": 1010748
                         }
                     ],
                     "daterange": "2019-10-13 - 2020-01-11",
@@ -96,9 +114,33 @@
                 }
             ]
         },
-    "impl_long_pv":{
-
-    },
+    "impl_network_architecture":
+        {
+            "data": [
+                {
+                    "data": [
+                        {
+                            "mode": "thumbs-feed-02-hero-02:pub=nbcots-network:abp=0",
+                            "num_placements": 1,
+                            "num_publishers": 31,
+                            "num_views": 6318687,
+                            "placements": [
+                                "Below Article Thumbnails"
+                            ],
+                            "publishers": [
+                                "nbcots-knsd - 1030947",
+                                "nbcots-kvda - 1033599",
+                                "nbcots-kden-tv - 1033588",
+                                "nbcots-wzdc - 1105201",
+                                "nbcots-wtmo - 1132306",
+                                "nbcots-kulx - 1191574"
+                            ],
+                            "without_abp": "thumbs-feed-02-hero-02"
+                        }
+                    ]
+                }
+            ]
+        },
     "kusto_params":{
 
     },

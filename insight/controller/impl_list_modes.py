@@ -1,14 +1,10 @@
-import os
 from flask_restplus import Resource, reqparse
 
-from insight.util.json_read_write import load_json
+from insight.util.path_finder import path_finder
 from insight.service.dto import LmDto as DTO
 
-abs_path = os.path.abspath('.')
-path_to_file = os.path.join(abs_path, "config/_swagger.json")
-swagger_data = load_json(path_to_file)
-
-DATA = swagger_data['impl_list_modes']
+base_data = path_finder('swagger')
+DATA = base_data['impl_list_modes']
 
 lm_api = DTO.api
 lm_model = DTO.model

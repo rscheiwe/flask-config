@@ -1,0 +1,124 @@
+{
+  "response" : [
+    {
+      "R-Box publisher":"msn-network",
+      "TRC publisher":"msn-msn-home",
+      "URL (e)":"http:\/\/www.msn.com\/?ocid=iehp",
+      "URL (u)":"http:\/\/www.msn.com\/",
+      "List-id":"rbox-h2m",
+      "Mode":"thumbnails-b",
+      "Placement":"Mid Health Stripe Thumbnails",
+      "Tier1":0,
+      "Hits":"253,191",
+      "Last Seen":"225\u00a0days ago"
+    },
+    {
+      "R-Box publisher":"yahoojp-p4-ci-es",
+      "TRC publisher":"yahoojp-p4-ci-es",
+      "URL (e)":"https:\/\/s.yimg.jp\/images\/ycd\/lib\/ycdloader\/4.0.1\/ycdproxy.ht",
+      "URL (u)":"https:\/\/headlines.yahoo.co.jp\/article?a=20171120-00127963-th",
+      "List-id":"rbox-t2m",
+      "Mode":"organic-thumbnails-C1-SMP2-Org",
+      "Placement":"Below Article Thumbnails-p4",
+      "Tier1":0,
+      "Hits":"183,884",
+      "Last Seen":"225\u00a0days ago"
+    },
+    {
+      "R-Box publisher":"yahoojp-p4-ci-es",
+      "TRC publisher":"yahoojp-p4-ci-es",
+      "URL (e)":"https:\/\/s.yimg.jp\/images\/ycd\/lib\/ycdloader\/4.0.1\/ycdproxy.ht",
+      "URL (u)":"https:\/\/headlines.yahoo.co.jp\/hl?a=20171120-00000000-sanspo-",
+      "List-id":"rbox-t2m",
+      "Mode":"thumbnails-C1-SMP2-SC",
+      "Placement":"Below Article Thumbnails-p4-sc",
+      "Tier1":0,
+      "Hits":"182,806",
+      "Last Seen":"225\u00a0days ago"
+    },
+    {
+      "R-Box publisher":"yahoojp-p4-ci-es",
+      "TRC publisher":"yahoojp-p4-ci-es",
+      "URL (e)":"https:\/\/s.yimg.jp\/images\/ycd\/lib\/ycdloader\/4.0.1\/ycdproxy.ht",
+      "URL (u)":"https:\/\/headlines.yahoo.co.jp\/hl?a=20171120-00000080-spnanne",
+      "List-id":"rbox-t2m",
+      "Mode":"organic-thumbnails-C1-PC2-Org",
+      "Placement":"Below Article Thumbnails-p4",
+      "Tier1":0,
+      "Hits":"157,134",
+      "Last Seen":"225\u00a0days ago"
+    },
+    {
+      "R-Box publisher":"msn-network",
+      "TRC publisher":"msn-msn",
+      "URL (e)":"https:\/\/www.msn.com\/en-us\/news\/politics\/greg-gianforte-misle",
+      "URL (u)":"https:\/\/www.msn.com\/en-us\/news\/politics\/greg-gianforte-misle",
+      "List-id":"rbox-t2m",
+      "Mode":"organic-thumbnails-h",
+      "Placement":"From Vertical RR- Multi-story Layout",
+      "Tier1":0,
+      "Hits":"141,179",
+      "Last Seen":"226\u00a0days ago"
+    },
+    {
+      "R-Box publisher":"yahoojp-p4-ci-es",
+      "TRC publisher":"yahoojp-p4-ci-es",
+      "URL (e)":"https:\/\/s.yimg.jp\/images\/ycd\/lib\/ycdloader\/3.0.4\/ycdproxy.ht",
+      "URL (u)":"https:\/\/headlines.yahoo.co.jp\/hl?a=20170814-00000002-jct-ent",
+      "List-id":"rbox-t2m",
+      "Mode":"thumbnails-C1-PC2-SC",
+      "Placement":"Below Article Thumbnails-p4-sc",
+      "Tier1":0,
+      "Hits":"138,492",
+      "Last Seen":"323\u00a0days ago"
+    },
+    {
+      "R-Box publisher":"msn-network",
+      "TRC publisher":"msn-msn-home",
+      "URL (e)":"http:\/\/www.msn.com\/?ocid=iehp",
+      "URL (u)":"http:\/\/www.msn.com\/",
+      "List-id":"rbox-h2m",
+      "Mode":"thumbnails-2x1",
+      "Placement":"Mid Infopane Thumbnails",
+      "Tier1":0,
+      "Hits":"133,635",
+      "Last Seen":"225\u00a0days ago"
+    },
+    {
+      "R-Box publisher":"socialsweetheartsgmbh-network",
+      "TRC publisher":"socialsweetheartsgmbh-nametests-en",
+      "URL (e)":"https:\/\/en.nametests.com\/test\/whose-role-model-are-you\/23694",
+      "URL (u)":"https:\/\/en.nametests.com\/test\/whose-role-model-are-you\/23694",
+      "List-id":"rbox-t2m",
+      "Mode":"organic-thumbnails-rr",
+      "Placement":"Right Rail Thumbnails",
+      "Tier1":0,
+      "Hits":"109,331",
+      "Last Seen":"340\u00a0days ago"
+    },
+    {
+      "R-Box publisher":"socialsweetheartsgmbh-network",
+      "TRC publisher":"socialsweetheartsgmbh-nametests-en",
+      "URL (e)":"https:\/\/en.nametests.com\/test\/result\/tori\/slm_9672498195\/",
+      "URL (u)":"https:\/\/en.nametests.com\/test\/what-are-the-20-names-of-the-p",
+      "List-id":"rbox-t2m",
+      "Mode":"organic-thumbnails-b",
+      "Placement":"Organic Below Article Thumbnails",
+      "Tier1":0,
+      "Hits":"108,450",
+      "Last Seen":"280\u00a0days ago"
+    },
+    {
+      "R-Box publisher":"meaww",
+      "TRC publisher":"meaww",
+      "URL (e)":"http:\/\/meaww.com\/activities\/wallpost\/18019911500161914?utm_s",
+      "URL (u)":"http:\/\/meaww.com\/activities\/wallpost\/18019911500161914?utm_s",
+      "List-id":"rbox-p2m",
+      "Mode":"thumbnails-a",
+      "Placement":"Mobile Below Quiz Thumbnails",
+      "Tier1":0,
+      "Hits":"107,931",
+      "Last Seen":"353\u00a0days ago"
+    }
+  ]
+}

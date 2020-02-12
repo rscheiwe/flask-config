@@ -1,6 +1,6 @@
 import os
 import json
-from flask import request
+from flask import request, abort
 from flask_restplus import Resource, reqparse, marshal, fields
 
 from insight.util.json_read_write import load_json
