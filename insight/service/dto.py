@@ -111,6 +111,10 @@ class NaDto:
 
 class DtDto:
     api = Namespace('desktop-traffic', description='Network-Publisher Architecture')
+
+
+class SdkDto:
+    api = Namespace('sdk-traffic', description='Network-Publisher Architecture')
     # nested_na_data = api.model(
     #     'na_by_mode', {
     #         'mode': fields.String,

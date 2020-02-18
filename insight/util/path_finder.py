@@ -27,8 +27,16 @@ def path_finder(config_type):
             return config_data
         except RuntimeError:
             raise RuntimeError("path not resolving")
+    elif config_type == 'desktop_sdk_traffic':
+        try:
+            abs_path = os.path.abspath('.')
+            path_to_file = os.path.join(abs_path, "config/desktop_sdk_traffic.json")
+            config_data = load_json(path_to_file)
+            return config_data
+        except RuntimeError:
+            raise RuntimeError("path not resolving")
 
 
 # if __name__ == '__main__':
-#     dum = path_finder('desktop_traffic')
+#     dum = path_finder('desktop_sdk_traffic')
 #     print(dum)
